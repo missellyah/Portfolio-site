@@ -1,0 +1,329 @@
+body {
+  font-family: sans-serif;
+  color: #424242;
+  margin:0 auto;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;  
+}
+
+h1 {
+color: #0178a5; 
+}
+
+h2 {
+font-size: 15px;
+font-style: italic;
+color:#343434;
+}
+
+h3 {
+font-style: italic;
+color:#ffffff;
+}
+
+h4 {
+color: #ffffff; 
+}
+
+h5 {
+font-size: 70px;
+font-style: italic;
+color:#343434;
+}
+
+h6 {
+font-size: 70px;
+color:#0178a5;
+}
+
+
+
+a { 
+text-decoration:none; 
+} 
+
+header, box, porfolio { 
+display: flex;
+flex-wrap: wrap;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Header */
+
+.header {
+	width: 100%;
+}
+
+.logo {
+	width: 100%;
+ }
+
+.header-box {
+	width: 100%;
+}
+
+.header-name {
+	width: 100%;
+}
+
+.header-title {
+    width: 100%;
+}
+ 
+ .line {
+	width: 100%;
+}
+
+hr {
+  border: none;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(1, 120, 165, 1), rgba(0, 0, 0, 0));
+  width: 100%;
+  margin-bottom: 1em;
+  height: 3px;
+}
+ 
+ /* Main-content */
+ 
+ .main-content {
+	width: 100%;
+	text-align:center;
+	background-size:cover;
+	background-image: url(http://ellyah.com/wp-content/uploads/2018/05/background-640_2.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	background-attachment: local;
+	height: 30em;
+	}
+
+.main-text {
+	width: 80%;
+	margin: 0 0 0 auto;
+}
+	 
+ /* Portfolio */
+ .porfolio {
+	 width: 100%;
+	}
+ 
+.box {
+	text-align: center;
+	width: 100%;
+}
+
+ .porfolio img {
+	 width: 100%;	
+}
+
+.title {
+	background-color: #E4051F;
+}
+
+.footer {
+	background-color: #0178A5;
+	height: 30px;
+	width: 100%;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	text-align:center;
+	padding: 5px;
+}
+
+
+
+
+/* Breakpoints */
+@media screen and (max-width: 359px)  {
+
+.logo {
+oreder: 1;
+}
+
+.header-box {
+	order: 2;
+	text-align: center;	
+}
+
+.header-name: {
+	font-size: 30px;
+}
+
+.header-title {
+	font-size: 20px;
+}
+
+.title {
+	padding: 10px;
+}
+
+.titleTwo { 
+margin: 20px;
+}
+
+.footer {
+font-size: 10px;
+}
+
+}
+
+@media screen and (min-width: 360px) and (max-width: 519px) {
+
+.logo {
+oreder: 1;
+}
+
+.header-box {
+		order: 2;
+	text-align: center;	
+}
+
+.header-name: {
+	font-size: 30px;
+	padding-right: 10px;
+}
+
+.header-title {
+	font-size: 20px;
+}
+
+.title {
+	padding: 10px;
+}
+
+.titleTwo { 
+margin: 10px;
+}
+.footer {
+	font-size: 10px;
+}
+}
+  
+@media screen and (min-width: 520px) and (max-width: 1020px) {
+
+.logo {
+	width: 20%;
+	oreder: 1;
+}
+
+.header-box {
+	width: 75%;
+	order: 2;
+	text-align: right;
+}
+
+.header-name: {
+	font-size: 50px;
+	padding-right: 5px;
+}
+
+.header-title {
+	font-size: 20px;
+}
+
+.line {
+	order: 3;
+}
+
+.title { 
+	font-size: 15px;
+	padding: 5px; 
+}
+.titleTwo { 
+margin: 10px;
+}
+
+
+.porfolio {
+	display: flex;
+	flex-wrap: wrap;
+    width:100%;
+    justify-content: space-between;
+}
+
+.porfolio img {
+	width: 100%;
+}
+
+.box {
+	width: 30%;
+	
+}
+
+.title {
+	width: 100%;
+	font-size: 15px;
+	height: 30px;
+	text-align:center; 
+	padding-top: 10px;
+	
+	
+}
+
+}
+
+@media screen and (min-width: 1020px){
+
+.logo {
+	width: 20%;
+	oreder: 1;
+}
+
+.header-box {
+	width: 75%;
+	order: 2;
+	text-align: right;
+	
+}
+
+.header-name: {
+	font-size: 70px;
+	padding-right: 10px; 
+}
+
+.header-title {
+	font-size: 20px;
+}
+
+.line {
+	order: 3;
+}
+.main-content {
+	background-image: url(http://ellyah.com/wp-content/uploads/2016/04/slide_3-online-strategy-1024x421.jpg);
+}
+
+.main-text {
+	margin: 0 0 0 auto;
+    text-align: center;
+}
+
+.porfolio {
+	display: flex;
+	flex-wrap: wrap;
+    width:100%;
+    justify-content: space-between;
+    
+}
+
+.porfolio img {
+	width: 100%;
+}
+
+.box {
+	width: 32%;
+	margin: 5px;
+}
+
+.title {
+	width: 100%;
+	padding: 5px;
+	font-size:20px
+}
+
+}
